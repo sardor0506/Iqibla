@@ -1,0 +1,31 @@
+[
+    {
+        "id": "asd",
+        "photos": [
+            "photo_1.jpg",
+            "photo_2.jpg",
+            "photo_3.jpg",
+            "photo_4.jpg",
+            "photo_1.jpg",
+            "photo_2.jpg"
+        ],
+        "price": 1250000,
+        "title": "Zikr ring Jood lite",
+        "desc": "Bu modelimiz eng oxirgi chiqgan modeli bo'lib, barmoq razmerini bilmagan mijozlarimizga tavsiya qilamiz.",
+        "description": "Zikr ring Jood lite modeli funksiyalari\n -Tasbeh aytish\n -Telefonga ulanadi\n -Nechta tasbeh aytganingizni hisoblab boradi\n -Namoz vaqtlarini eslatib turadi\n -Zikr ayting deb eslatib turadi\n -Soatni ham ko'rsatib turadi\n qadam va kaloriya o'lchaydi\n Komplekt ichida 3 ta razmer chiqadi\n\nBu modelimiz eng oxirgi chiqgan modeli bo'lib, barmoq razmerini bilmagan mijozlarimizga tavsiya qilamiz."
+    },
+    {
+        "id": 2,
+        "photos": [
+            "watch1-1.png",
+            "watch1-2.png",
+            "watch1-1.png",
+            "watch1-2.png",
+            "watch1-1.png",
+            "watch1-2.png"
+        ],
+        "price": 1480000,
+        "title": "Iqbal nimadur",
+        "description": ""
+    }
+]

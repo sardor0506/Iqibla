@@ -77,7 +77,7 @@ export function ProductDetail({ product, onClose }: ProductDetailProps) {
             <div
                 className="relative bg-white dark:bg-zinc-900
                    border border-zinc-200 dark:border-zinc-800
-                   rounded-3xl w-full max-w-3xl shadow-2xl
+                   rounded-3xl w-full max-w-4xl shadow-3xl
                    flex flex-col md:flex-row
                    max-h-[90vh] overflow-hidden"
                 onClick={(e) => e.stopPropagation()}
@@ -229,7 +229,7 @@ export function ProductDetail({ product, onClose }: ProductDetailProps) {
                         {/* Yuqoriga suring xabari - FAQAT SCROLL BO'LGANDA KO'RINADI */}
                         {scrolled && (
                             <div className="absolute bottom-3 left-1/2 -translate-x-1/2 flex flex-col items-center gap-1 animate-bounce">
-                                <span className="text-white text-[11px] bg-black/40 px-3 py-1 rounded-full">
+                                <span className="text-white text-[15px] bg-black/40 px-3 py-1 rounded-full">
                                     Yuqoriga suring
                                 </span>
                                 <svg
@@ -329,7 +329,7 @@ export function ProductDetail({ product, onClose }: ProductDetailProps) {
                             {/* Rasmlar 1,2,3,4,5,6 */}
                             {product.photos.length > 1 && (
                                 <div className="mt-8 mb-6">
-                                    <h4 className="text-[11px] font-medium text-zinc-400 dark:text-zinc-500 uppercase tracking-widest mb-4">
+                                    <h4 className="text-[15px] font-medium text-zinc-400 dark:text-zinc-500 uppercase tracking-widest mb-4">
                                         Boshqa rasmlar
                                     </h4>
                                     <div className="grid grid-cols-3 gap-3">

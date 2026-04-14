@@ -1,6 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
 import type { Product } from './card';
-import ColorSelector from '../color/ColorSelector';
 
 interface ProductDetailProps {
     product: Product | null;

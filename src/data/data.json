@@ -1,6 +1,6 @@
 [
     {
-        "id": "1",
+        "id": "Jood",
         "photos": [
             "id1/photo_1.jpg",
             "id1/photo_2.jpg",
@@ -19,7 +19,7 @@
         "description": "Zikr ring Jood\n\n- 5 xil rangi bo’ladi: qora, pushti, seriy, yashil va ko’k\n- Tasbeh aytish\n- Telefonga ulanadi\n- Nechta tasbeh aytganingizni hisoblab boradi\n- Namoz vaqtlarini eslatib turadi\n- Zikr ayting deb eslatib turadi\n- Soatni ham ko'rsatib turadi\n- Qadam va kaloriya o'lchaydi\n- Komplekt ichida 3 ta razmer chiqadi\n- Zaryadkaga qo'yadigan keysi bo'ladi\n\nBu modelimiz qo'shimcha aksesuarlari bilan ahamiyatliroq hisoblanadi. Eng ko'p hadiya uchun ham shu modelidan olishadi."
     },
     {
-        "id": "2",
+        "id": "Joodlite",
         "photos": [
             "id2/photo_1.jpg",
             "id2/photo_2.jpg",
@@ -33,7 +33,7 @@
         "description": "Zikr ring Jood lite modeli funksiyalari\n -Tasbeh aytish\n -Telefonga ulanadi\n -Nechta tasbeh aytganingizni hisoblab boradi\n -Namoz vaqtlarini eslatib turadi\n -Zikr ayting deb eslatib turadi\n -Soatni ham ko'rsatib turadi\n qadam va kaloriya o'lchaydi\n Komplekt ichida 3 ta razmer chiqadi\n\nBu modelimiz eng oxirgi chiqgan modeli bo'lib, barmoq razmerini bilmagan mijozlarimizga tavsiya qilamiz."
     },
     {
-        "id": "3",
+        "id": "FlexAdvance",
         "photos": [
             "id3/photo_1.jpg",
             "id3/photo_2.jpg",
@@ -51,7 +51,7 @@
         "description": "Zikr ring flex advance\n\n- 3 xil rangi bo’ladi: qora, yashil va pushti\n- Tasbeh aytish\n- Telefonga ulanadi\n- Nechta tasbeh aytganingizni hisoblab boradi\n- Namoz vaqtlarini eslatib turadi\n- Zikr ayting deb eslatib turadi\n- Soatni ham ko'rsatib turadi\n- Komplekt ichida 3 ta razmer chiqadi\n\nBu modelimiz barmoq razmerini bilmagan mijozlarimiz uchun tavsiya qilamiz."
     },
     {
-        "id": "4",
+        "id": "Noor2",
         "photos": [
             "id4/photo_1.jpg",
             "id4/photo_2.jpg",
@@ -69,7 +69,7 @@
         "description": "Zikr ring noor 2\n\n- 4 xil rangi bo’ladi: qora, yashil, pushti va fiolitiviy\n- Tasbeh aytish\n- Telefonga ulanadi\n- Nechta tasbeh aytganingizni hisoblab boradi\n- Namoz vaqtlarini eslatib turadi\n- Zikr ayting deb eslatib turadi\n- Soatni ham ko'rsatib turadi\n- Qadam va kaloriya o'lchaydi\n\nBu modelimiz hamyonbop va oxirgi chiqgan modellaridan hisoblanadi."
     },
     {
-        "id": "5",
+        "id": "Noor",
         "photos": [
             "id5/photo_1.jpg",
             "id5/photo_2.jpg",

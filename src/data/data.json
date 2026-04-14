@@ -85,5 +85,36 @@
         "color": ["000000", "FFFFFF", "FF0000", "00FF00", "0000FF"],
         "desc": "Bu modelimiz eng hamyonbop narxdagisi hisoblanadi",
         "description": "Zikr ring noor\n\n- 4 xil rangi bo’ladi: qora, yashil, ko’k va pushti\n- Tasbeh aytish\n- Telefonga ulanadi\n- Nechta tasbeh aytganingizni hisoblab boradi\n- Namoz vaqtlarini eslatib turadi\n- Zikr ayting deb eslatib turadi\n- Soatni ham ko'rsatib turadi\n\nBu modelimiz eng hamyonbop narxdagisi hisoblanadi."
+    },
+    {
+        "id": 6,
+        "photos": [
+            "id6/photo_1.jpg",
+            "id6/photo_2.jpg",
+            "id6/photo_3.jpg",
+            "id6/photo_4.jpg"
+        ],
+        "price": 1250000,
+        "title": "Zikr ring Jood 3",
+        "color": ["000000", "FFFFFF", "FF0000", "00FF00", "0000FF"],
+        "desc": "Bu modelimiz eng qimmat model bo'lib, noziklikni sevuvchilar uchun juda mos tushadi.",
+        "description": "Zikr ring Jood 3\n\n- 2 xil rangi bo’ladi: seriy va qora\n- Tasbeh aytish\n- Telefonga ulanadi\n- Nechta tasbeh aytganingizni hisoblab boradi\n- Namoz vaqtlarini eslatib turadi\n- Zikr ayting deb eslatib turadi\n- Soatni ham ko'rsatib turadi\n- Komplekt ichida 3 ta razmer chiqadi\n- Zaryadkaga qo'yadigan keysi bo'ladi\n- Materiali metall bo'ladi\n- Tasbehda sensori bo'ladi\n- Qiblani topish funksiyasi bo'ladi\n\nBu modelimiz eng qimmat model bo'lib, noziklikni sevuvchilar uchun juda mos tushadi."
+    },
+    {
+        "id": 7,
+        "photos": [
+            "id7/photo_1.jpg",
+            "id7/photo_2.jpg",
+            "id7/photo_3.jpg",
+            "id7/photo_4.jpg",
+            "id7/photo_5.jpg",
+            "id7/photo_6.jpg",
+            "id7/photo_7.jpg"
+        ],
+        "price": 1250000,
+        "title": "Zikr ring Flex pro",
+        "color": ["000000", "FFFFFF", "FF0000", "00FF00", "0000FF"],
+        "desc": "Bu modelimiz eng sifatli model hisoblanadi. Hadiyaga ham eng ko'p olinadigan model hisoblanadi.",
+        "description": "Zikr ring Flex pro\n\n- 3 xil rangi bo’ladi: qora, ko’k va yashil\n- Tasbeh aytish\n- Telefonga ulanadi\n- Nechta tasbeh aytganingizни hisoblab boradi\n- Namoz vaqtlarни eslatib turadi\n- Zikr ayting deb eslatib turadi\n- Soatни ham ko'rsatib turadi\n- Komplekt ichida 3 ta razmer chiqadi\n- Zaryadkaga qo'yadigan keysi bo'ladi\n- Materiali metall bo'ladi\n- Zaryadkasi 10+ kunga yetadi\n\nBu modelimiz eng sifatli model hisoblanadi. Hadiyaga ham eng ko'p olinadigan model hisoblanadi."
     }
 ]

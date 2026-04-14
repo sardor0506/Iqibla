@@ -207,9 +207,8 @@ export function ProductDetail({ product, onClose }: ProductDetailProps) {
                 </div>
 
                 {/* ===== MOBILE layout ===== */}
-                {/* Wrapper: relative, to'liq balandlik, overflow hidden */}
                 <div className="flex flex-col md:hidden w-full max-h-[90vh] overflow-hidden relative">
-                    {/* Rasm — sticky yuqorida qoladi */}
+                    {/* Rasm */}
                     <div
                         className="relative flex-shrink-0 overflow-hidden transition-all duration-300"
                         style={{ height: scrolled ? '45vw' : '75vw' }}
@@ -227,17 +226,18 @@ export function ProductDetail({ product, onClose }: ProductDetailProps) {
                             }}
                         />
 
-                        {/* Pastga tortish hint */}
-                        {!scrolled && (
+                        {/* Yuqoriga suring xabari - FAQAT SCROLL BO'LGANDA KO'RINADI */}
+                        {scrolled && (
                             <div className="absolute bottom-3 left-1/2 -translate-x-1/2 flex flex-col items-center gap-1 animate-bounce">
                                 <span className="text-white text-[11px] bg-black/40 px-3 py-1 rounded-full">
-                                    Pastga suring
+                                    Yuqoriga suring
                                 </span>
                                 <svg
                                     width="16"
                                     height="16"
                                     viewBox="0 0 16 16"
                                     fill="none"
+                                    className="rotate-180"
                                 >
                                     <path
                                         d="M4 6l4 4 4-4"
@@ -312,7 +312,7 @@ export function ProductDetail({ product, onClose }: ProductDetailProps) {
                         </span>
                     </div>
 
-                    {/* Ma'lumotlar — yuqoriga scroll qilinadi, rasm kichrayadi */}
+                    {/* Ma'lumotlar va rasmlar*/}
                     <div
                         ref={scrollRef}
                         onScroll={handleScroll}
@@ -325,6 +325,41 @@ export function ProductDetail({ product, onClose }: ProductDetailProps) {
 
                         <div className="p-5">
                             <InfoContent product={product} />
+
+                            {/* Rasmlar 1,2,3,4,5,6 */}
+                            {product.photos.length > 1 && (
+                                <div className="mt-8 mb-6">
+                                    <h4 className="text-[11px] font-medium text-zinc-400 dark:text-zinc-500 uppercase tracking-widest mb-4">
+                                        Boshqa rasmlar
+                                    </h4>
+                                    <div className="grid grid-cols-3 gap-3">
+                                        {product.photos.map((src, i) => (
+                                            <button
+                                                key={i}
+                                                onClick={() => {
+                                                    setActivePhoto(i);
+                                                    if (scrollRef.current) {
+                                                        scrollRef.current.scrollTop = 0;
+                                                    }
+                                                }}
+                                                className={`aspect-square rounded-xl overflow-hidden border-2 transition-all duration-200 ${i === activePhoto ? 'border-zinc-900 dark:border-zinc-100 scale-105' : 'border-transparent opacity-60 hover:opacity-100'}`}
+                                            >
+                                                <img
+                                                    src={src}
+                                                    alt={`photo ${i + 1}`}
+                                                    className="w-full h-full object-cover"
+                                                    onError={(e) => {
+                                                        (
+                                                            e.target as HTMLImageElement
+                                                        ).src =
+                                                            `https://placehold.co/100x100/27272a/71717a?text=${i + 1}`;
+                                                    }}
+                                                />
+                                            </button>
+                                        ))}
+                                    </div>
+                                </div>
+                            )}
                         </div>
                     </div>
                 </div>

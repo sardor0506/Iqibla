@@ -4,6 +4,7 @@ import { ProductDetail } from './components/card/product-detail';
 import Navbar from './components/navbar/navbar';
 import products from './data/data.json';
 import type { Product } from './components/card/card';
+import ProductAdminPanel from './admin/ProductAdminPanel';
 
 export default function App() {
     const [selected, setSelected] = useState<Product | null>(null);
@@ -26,6 +27,7 @@ export default function App() {
                 product={selected}
                 onClose={() => setSelected(null)}
             />
+            {/* <ProductAdminPanel /> */}
         </div>
     );
 }

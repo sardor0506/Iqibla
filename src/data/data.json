@@ -11,6 +11,7 @@
         ],
         "price": 1250000,
         "title": "Zikr ring Jood lite",
+        "color": ["000000", "FFFFFF", "FF0000", "00FF00", "0000FF"],
         "desc": "Bu modelimiz eng oxirgi chiqgan modeli bo'lib, barmoq razmerini bilmagan mijozlarimizga tavsiya qilamiz.",
         "description": "Zikr ring Jood lite modeli funksiyalari\n -Tasbeh aytish\n -Telefonga ulanadi\n -Nechta tasbeh aytganingizni hisoblab boradi\n -Namoz vaqtlarini eslatib turadi\n -Zikr ayting deb eslatib turadi\n -Soatni ham ko'rsatib turadi\n qadam va kaloriya o'lchaydi\n Komplekt ichida 3 ta razmer chiqadi\n\nBu modelimiz eng oxirgi chiqgan modeli bo'lib, barmoq razmerini bilmagan mijozlarimizga tavsiya qilamiz."
     },
@@ -27,6 +28,7 @@
         "price": 1480000,
         "title": "Iqbal nimadur",
         "description": "asfcasc",
+        "color": ["#000000", "#FFFFFF", "#FF0000", "#00FF00", "#0000FF"],
         "desc": "Bu modelimiz eng oxirgi chiqgan modeli bo'lib, barmoq razmerini bilmagan mijozlarimizga tavsiya qilamiz."
     }
 ]

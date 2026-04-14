@@ -212,7 +212,7 @@ export default function Navbar() {
 
                         {/* Phone */}
                         <a
-                            href="tel:+998901234567"
+                            href="tel:+998902132621"
                             onClick={() => setMenuOpen(false)}
                             className="flex items-center gap-3 w-full px-4 py-3 rounded-lg
                            bg-zinc-900 hover:bg-zinc-800 transition-colors border border-zinc-800"

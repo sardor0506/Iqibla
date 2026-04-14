@@ -1,34 +1,89 @@
 [
     {
-        "id": "asd",
+        "id": "1",
         "photos": [
-            "photo_1.jpg",
-            "photo_2.jpg",
-            "photo_3.jpg",
-            "photo_4.jpg",
-            "photo_1.jpg",
-            "photo_2.jpg"
+            "id1/photo_1.jpg",
+            "id1/photo_2.jpg",
+            "id1/photo_3.jpg",
+            "id1/photo_4.jpg",
+            "id1/photo_5.jpg",
+            "id1/photo_6.jpg",
+            "id1/photo_7.jpg",
+            "id1/photo_8.jpg",
+            "id1/photo_9.jpg"
+        ],
+        "price": 1250000,
+        "title": "Zikr ring Jood",
+        "color": ["000000", "FFFFFF", "FF0000", "00FF00", "0000FF"],
+        "desc": "Bu modelimiz qo'shimcha aksesuarlari bilan ahamiyatliroq hisoblanadi. Eng ko'p hadiya uchun ham shu modelidan olishadi.",
+        "description": "Zikr ring Jood\n\n- 5 xil rangi bo’ladi: qora, pushti, seriy, yashil va ko’k\n- Tasbeh aytish\n- Telefonga ulanadi\n- Nechta tasbeh aytganingizni hisoblab boradi\n- Namoz vaqtlarini eslatib turadi\n- Zikr ayting deb eslatib turadi\n- Soatni ham ko'rsatib turadi\n- Qadam va kaloriya o'lchaydi\n- Komplekt ichida 3 ta razmer chiqadi\n- Zaryadkaga qo'yadigan keysi bo'ladi\n\nBu modelimiz qo'shimcha aksesuarlari bilan ahamiyatliroq hisoblanadi. Eng ko'p hadiya uchun ham shu modelidan olishadi."
+    },
+    {
+        "id": "2",
+        "photos": [
+            "id2/photo_1.jpg",
+            "id2/photo_2.jpg",
+            "id2/photo_3.jpg",
+            "id2/photo_4.jpg"
         ],
         "price": 1250000,
         "title": "Zikr ring Jood lite",
         "color": ["000000", "FFFFFF", "FF0000", "00FF00", "0000FF"],
-        "desc": "Bu modelimiz eng oxirgi chiqgan modeli bo'lib, barmoq razmerini bilmagan mijozlarimizga tavsiya qilamiz.",
+        "desc": "Bu modelimiz qo'shimcha aksesuarlari bilan ahamiyatliroq hisoblanadi. Eng ko'p hadiya uchun ham shu modelidan olishadi.",
         "description": "Zikr ring Jood lite modeli funksiyalari\n -Tasbeh aytish\n -Telefonga ulanadi\n -Nechta tasbeh aytganingizni hisoblab boradi\n -Namoz vaqtlarini eslatib turadi\n -Zikr ayting deb eslatib turadi\n -Soatni ham ko'rsatib turadi\n qadam va kaloriya o'lchaydi\n Komplekt ichida 3 ta razmer chiqadi\n\nBu modelimiz eng oxirgi chiqgan modeli bo'lib, barmoq razmerini bilmagan mijozlarimizga tavsiya qilamiz."
     },
     {
-        "id": 2,
+        "id": "3",
         "photos": [
-            "watch1-1.png",
-            "watch1-2.png",
-            "watch1-1.png",
-            "watch1-2.png",
-            "watch1-1.png",
-            "watch1-2.png"
+            "id3/photo_1.jpg",
+            "id3/photo_2.jpg",
+            "id3/photo_3.jpg",
+            "id3/photo_4.jpg",
+            "id3/photo_5.jpg",
+            "id3/photo_6.jpg",
+            "id3/photo_7.jpg",
+            "id3/photo_8.jpg"
         ],
-        "price": 1480000,
-        "title": "Iqbal nimadur",
-        "description": "asfcasc",
-        "color": ["#000000", "#FFFFFF", "#FF0000", "#00FF00", "#0000FF"],
-        "desc": "Bu modelimiz eng oxirgi chiqgan modeli bo'lib, barmoq razmerini bilmagan mijozlarimizga tavsiya qilamiz."
+        "price": 1250000,
+        "title": "Zikr ring flex advance",
+        "color": ["000000", "FFFFFF", "FF0000", "00FF00", "0000FF"],
+        "desc": "Bu modelimiz barmoq razmerini bilmagan mijozlarimiz uchun tavsiya qilamiz.",
+        "description": "Zikr ring flex advance\n\n- 3 xil rangi bo’ladi: qora, yashil va pushti\n- Tasbeh aytish\n- Telefonga ulanadi\n- Nechta tasbeh aytganingizni hisoblab boradi\n- Namoz vaqtlarini eslatib turadi\n- Zikr ayting deb eslatib turadi\n- Soatni ham ko'rsatib turadi\n- Komplekt ichida 3 ta razmer chiqadi\n\nBu modelimiz barmoq razmerini bilmagan mijozlarimiz uchun tavsiya qilamiz."
+    },
+    {
+        "id": "4",
+        "photos": [
+            "id4/photo_1.jpg",
+            "id4/photo_2.jpg",
+            "id4/photo_3.jpg",
+            "id4/photo_4.jpg",
+            "id4/photo_5.jpg",
+            "id4/photo_6.jpg",
+            "id4/photo_7.jpg",
+            "id4/photo_8.jpg"
+        ],
+        "price": 1250000,
+        "title": "Zikr ring noor 2",
+        "color": ["000000", "FFFFFF", "FF0000", "00FF00", "0000FF"],
+        "desc": "Bu modelimiz barmoq razmerini bilmagan mijozlarimiz uchun tavsiya qilamiz.",
+        "description": "Zikr ring noor 2\n\n- 4 xil rangi bo’ladi: qora, yashil, pushti va fiolitiviy\n- Tasbeh aytish\n- Telefonga ulanadi\n- Nechta tasbeh aytganingizni hisoblab boradi\n- Namoz vaqtlarini eslatib turadi\n- Zikr ayting deb eslatib turadi\n- Soatni ham ko'rsatib turadi\n- Qadam va kaloriya o'lchaydi\n\nBu modelimiz hamyonbop va oxirgi chiqgan modellaridan hisoblanadi."
+    },
+    {
+        "id": "5",
+        "photos": [
+            "id5/photo_1.jpg",
+            "id5/photo_2.jpg",
+            "id5/photo_3.jpg",
+            "id5/photo_4.jpg",
+            "id5/photo_5.jpg",
+            "id5/photo_6.jpg",
+            "id5/photo_7.jpg",
+            "id5/photo_8.jpg"
+        ],
+        "price": 1250000,
+        "title": "Zikr ring noor",
+        "color": ["000000", "FFFFFF", "FF0000", "00FF00", "0000FF"],
+        "desc": "Bu modelimiz eng hamyonbop narxdagisi hisoblanadi",
+        "description": "Zikr ring noor\n\n- 4 xil rangi bo’ladi: qora, yashil, ko’k va pushti\n- Tasbeh aytish\n- Telefonga ulanadi\n- Nechta tasbeh aytganingizni hisoblab boradi\n- Namoz vaqtlarini eslatib turadi\n- Zikr ayting deb eslatib turadi\n- Soatni ham ko'rsatib turadi\n\nBu modelimiz eng hamyonbop narxdagisi hisoblanadi."
     }
 ]

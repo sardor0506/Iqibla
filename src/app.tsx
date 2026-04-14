@@ -26,7 +26,6 @@ export default function App() {
                 product={selected}
                 onClose={() => setSelected(null)}
             />
-            {/* <ProductAdminPanel /> */}
         </div>
     );
 }

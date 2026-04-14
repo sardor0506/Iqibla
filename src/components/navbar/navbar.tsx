@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Sun, Moon, Menu, X, MessageCircle, Phone } from 'lucide-react';
+import Pin from './pin/pin';
 
 export default function Navbar() {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -240,6 +241,7 @@ export default function Navbar() {
                     onClick={() => setContactsOpen(false)}
                 />
             )}
+            <Pin />
         </header>
     );
 }
